@@ -1,0 +1,102 @@
+/* Navbar CSS */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 25%; /* Adjusted width */
+    padding: 1%;
+    text-align: center;
+}
+.logo img {
+    width: 160px; /* Adjusted width */
+    height: auto; 
+}
+
+nav {
+    width: 100%; /* Adjusted width */
+    text-align: center; /* Center align the content */
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Hero Image CSS */
+.heroImg {
+    height: 400px; /* Adjust the height as per your requirement */
+    padding: 25px;
+    background-color: #FFF5FA; /* pastel pink background */
+    text-align: center;
+}
+
+.content {
+    width: 50%; /* Adjust the width as per your requirement */
+    margin: 0 auto;
+}
+
+.content img {
+    width: 200px; /* Adjust the width as per your requirement */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Set a maximum width for the image */
+    border-radius: 50%; /* Make the image a circle */
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #333;
+    font-size: 18px;
+}
+
+.content button {
+    background-color: #C7EBFF; /* pastel pink button */
+    color: rgb(0, 89, 131);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.content button:hover {
+    background-color: hsl(201, 96%, 74%); /* lighter pastel pink button on hover */
+}
+
+/* Footer CSS */
+footer {
+    background-color: #FFF5FA; /* pastel pink background */
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+footer p {
+    margin: 10px 0;
+}
