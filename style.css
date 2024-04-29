@@ -5,18 +5,18 @@
 }
 
 .logo {
-    width: 25%; /* Adjusted width */
+    width: 25%; 
     padding: 1%;
     text-align: center;
 }
 .logo img {
-    width: 160px; /* Adjusted width */
+    width: 160px;
     height: auto; 
 }
 
 nav {
-    width: 100%; /* Adjusted width */
-    text-align: center; /* Center align the content */
+    width: 100%; 
+    text-align: center
 }
 
 nav ul {
@@ -34,22 +34,22 @@ nav ul li {
 
 /* Hero Image CSS */
 .heroImg {
-    height: 400px; /* Adjust the height as per your requirement */
+    height: 400px; 
     padding: 25px;
-    background-color: #FFF5FA; /* pastel pink background */
+    background-color: #FFF5FA; 
     text-align: center;
 }
 
 .content {
-    width: 50%; /* Adjust the width as per your requirement */
+    width: 50%; 
     margin: 0 auto;
 }
 
 .content img {
-    width: 200px; /* Adjust the width as per your requirement */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Set a maximum width for the image */
-    border-radius: 50%; /* Make the image a circle */
+    width: 200px; 
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 50%; 
     margin-bottom: 20px;
 }
 
@@ -59,7 +59,7 @@ nav ul li {
 }
 
 .content button {
-    background-color: #C7EBFF; /* pastel pink button */
+    background-color: #C7EBFF; 
     color: rgb(0, 89, 131);
     border: none;
     padding: 10px 20px;
@@ -70,12 +70,12 @@ nav ul li {
 }
 
 .content button:hover {
-    background-color: hsl(201, 96%, 74%); /* lighter pastel pink button on hover */
+    background-color: hsl(201, 96%, 74%); 
 }
 
 /* Footer CSS */
 footer {
-    background-color: #FFF5FA; /* pastel pink background */
+    background-color: #FFF5FA; 
     padding: 20px;
     width: 100%;
     position: fixed;
